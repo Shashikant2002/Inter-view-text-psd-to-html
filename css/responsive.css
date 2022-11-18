@@ -2,20 +2,23 @@
     h4 {
         font-size: 1.2rem;
     }
-    
+
     h2 {
         font-size: 40px;
     }
-    
+
     h1 {
         font-size: 2.8rem;
     }
-    p{
+
+    p {
         font-size: .8rem;
     }
+
     .glob_button a {
         font-size: 12px;
     }
+
     .container {
         padding: 0 20px;
     }
@@ -39,20 +42,25 @@
     .header nav ul li a {
         font-size: 13px;
     }
-    .up_comming .container{
+
+    .up_comming .container {
         padding: 0 20px;
     }
+
     .up_comming .events .card {
         padding: 10px 10px 25px 10px;
         width: 30%;
         max-width: 300px;
     }
+
     .up_comming .events .card .name h3 {
         font-size: 1.2rem;
     }
+
     .up_comming .events .card .date_time .date .num h2 {
         font-size: 1.5rem;
     }
+
     .up_comming .events .card {
         width: 32%;
         max-width: 300px;
@@ -67,21 +75,23 @@
         color: var(--header_color);
         padding: 0 15px 10px 15px !important;
     }
-    
+
     h4 {
         font-size: 1rem;
     }
-    
+
     h2 {
         font-size: 2rem;
     }
-    
+
     h1 {
         font-size: 2.7rem;
     }
+
     .banner .slide .slider .date_loc h4 {
         font-size: .8rem;
     }
+
     .banner .slide .slider .timer .text h2 {
         font-size: 2.5rem;
     }
@@ -89,28 +99,39 @@
     .enternment .counter {
         flex-wrap: wrap;
     }
+
     .enternment .counter .count {
         width: 140px;
     }
+
     .enternment .head_cont .img_text {
         width: 40%;
         margin-left: 15px;
     }
+
     .enternment .head_cont .img_text .card p {
         font-size: .8rem;
     }
+
     .enternment .head_cont .img_text .card hr {
         margin: 7px auto;
     }
+
     .enternment .head_cont .img_text .card {
         padding: 30px 30px;
     }
+
     .enternment .head_cont .img_text .card:nth-child(1) {
         right: 46%;
         top: -15px;
     }
+
     .up_comming .events .card {
         padding: 10px 10px 25px 10px;
+    }
+
+    .photo_gal .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -172,15 +193,19 @@
         height: 3px;
         background: var(--dark_color);
     }
+
     .banner .slide .owl-nav {
         right: -80px;
     }
+
     .enternment .head_cont {
         flex-direction: column;
     }
+
     .enternment .head_cont .desc {
         width: 100%;
     }
+
     .enternment .head_cont .img_text {
         display: flex;
         width: 100%;
@@ -188,19 +213,26 @@
         margin-top: 20px;
         justify-content: space-between;
     }
+
     .enternment .head_cont .img_text .card {
         position: initial;
         padding: 40px 30px;
         width: 300px;
         margin: 0 10px;
     }
-    .up_comming .events .card{
-        width: 80%;
-        margin-top: 15px;
+
+    .up_comming .events .card {
+        width: 40%;
+        margin: 10px 10px;
     }
-    .up_comming .events{
-        flex-direction: column;
+
+    .up_comming .events {
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .photo_gal .gallery {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -208,28 +240,40 @@
     h4 {
         font-size: .7rem;
     }
-    
+
     h1 {
         font-size: 2rem;
         line-height: 35px;
     }
+
     .b7nner .slide .slider .timer {
         flex-direction: column;
         right: 0;
         bottom: 0px;
     }
+
     .banner .slide .owl-nav {
         right: -80px;
     }
+
     .banner .slide .slider .timer {
         right: -15px;
         flex-direction: column;
     }
+
     .banner .slide .slider .date_loc {
         margin-top: 5px;
         flex-direction: column;
     }
+
     .banner .slide .slider h4 {
         margin-top: 10px;
+    }
+
+    .up_comming .events .card {
+        width: 80%;
+    }
+    .photo_gal .gallery {
+        grid-template-columns: 1fr;
     }
 }
