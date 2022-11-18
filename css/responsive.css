@@ -1,6 +1,6 @@
 @media (max-width: 850px) {
     h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     h2 {
@@ -64,6 +64,49 @@
     .up_comming .events .card {
         width: 32%;
         max-width: 300px;
+    }
+
+    .contact_us .row .card .icon i {
+        font-size: 2rem;
+    }
+
+    .contact_us .row form input {
+        padding: 10px 20px;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .contact_us .row>h3:first-child {
+        font-size: 1.1rem;
+    }
+
+    .contact_us .row>h3:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .contact_us .row .card .icon {
+        margin-right: 10px;
+    }
+
+    .contact_us .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact_us .row {
+        width: 50%;
+    }
+
+    .footer .copy_right>div {
+        flex-direction: column;
+    }
+
+    .footer .socal {
+        top: 20px;
+    }
+
+    .footer .copy_right {
+        padding-top: 50px;
     }
 }
 
@@ -132,6 +175,11 @@
 
     .photo_gal .gallery {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .our_spon .spon_logo figure {
+        width: 20%;
+        margin-top: 20px;
     }
 }
 
@@ -231,8 +279,45 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .photo_gal .gallery {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .our_spon .spon_logo figure {
+        width: 25%;
+    }
+
+    .our_spon .glob_button {
+        margin-top: 25px;
+        padding: 7px 15px;
+    }
+
+    .contact_us .row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact_us .row:nth-child(2) {
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .contact_us .row .card {
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .contact_us .row .card:first-child {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .contact_us .row:nth-child(3) {
+        align-items: initial;
     }
 }
 
@@ -254,6 +339,7 @@
 
     .banner .slide .owl-nav {
         right: -80px;
+        top: 0;
     }
 
     .banner .slide .slider .timer {
@@ -273,7 +359,21 @@
     .up_comming .events .card {
         width: 95%;
     }
+
     .photo_gal .gallery {
         grid-template-columns: 1fr;
+    }
+
+    .our_spon .spon_logo figure {
+        width: 30%;
+    }
+
+    .footer nav ul {
+        flex-wrap: wrap;
+    }
+
+    .footer nav ul li {
+        margin-top: 10px;
+        width: 90px;
     }
 }
