@@ -331,11 +331,11 @@ h1 {
     top: -25px;
 }
 
-.enternment .counter .count p {
+.enternment .counter_this .count p {
     margin-top: 5px;
 }
 
-.enternment .counter .count {
+.enternment .counter_this .count {
     width: 20%;
     text-align: center;
     position: relative;
@@ -343,12 +343,7 @@ h1 {
     transition: .5s;
 }
 
-.counter {
-    animation-duration: 1s;
-    animation-delay: 0s;
-}
-
-.enternment .counter .count::after {
+.enternment .counter_this .count::after {
     content: "";
     position: absolute;
     width: 30%;
@@ -358,23 +353,23 @@ h1 {
     height: 3px;
 }
 
-.enternment .counter {
+.enternment .counter_this {
     margin-top: 60px;
 }
 
-.enternment .counter .count:nth-child(1)::after {
+.enternment .counter_this .count:nth-child(1)::after {
     background: var(--yellow);
 }
 
-.enternment .counter .count:nth-child(2)::after {
+.enternment .counter_this .count:nth-child(2)::after {
     background: var(--sky);
 }
 
-.enternment .counter .count:nth-child(3)::after {
+.enternment .counter_this .count:nth-child(3)::after {
     background: var(--btn_color);
 }
 
-.enternment .counter .count:nth-child(4)::after {
+.enternment .counter_this .count:nth-child(4)::after {
     background: var(--purple);
 }
 
