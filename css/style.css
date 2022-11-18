@@ -745,3 +745,409 @@ h1 {
 .footer .socal li {
     margin: 0 10px;
 }
+
+
+/* Responsive Css Start Here  */
+@media (max-width: 850px) {
+    h4 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    p {
+        font-size: .8rem;
+    }
+
+    .glob_button a {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .header nav ul li a {
+        font-weight: 500;
+    }
+
+    .header nav ul li {
+        margin: 10px;
+    }
+
+    .header .logo {
+        width: 120px;
+    }
+
+    .header .logo img {
+        margin-bottom: -50px;
+    }
+
+    .header nav ul li a {
+        font-size: 13px;
+    }
+
+    .up_comming .container {
+        padding: 0 20px;
+    }
+
+    .up_comming .events .card {
+        padding: 10px 10px 25px 10px;
+        width: 30%;
+        max-width: 300px;
+    }
+
+    .up_comming .events .card .name h3 {
+        font-size: 1.2rem;
+    }
+
+    .up_comming .events .card .date_time .date .num h2 {
+        font-size: 1.5rem;
+    }
+
+    .up_comming .events .card {
+        width: 32%;
+        max-width: 300px;
+    }
+
+    .contact_us .row .card .icon i {
+        font-size: 2rem;
+    }
+
+    .contact_us .row form input {
+        padding: 10px 20px;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .contact_us .row>h3:first-child {
+        font-size: 1.1rem;
+    }
+
+    .contact_us .row>h3:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .contact_us .row .card .icon {
+        margin-right: 10px;
+    }
+
+    .contact_us .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact_us .row {
+        width: 50%;
+    }
+
+    .footer .copy_right>div {
+        flex-direction: column;
+    }
+
+    .footer .socal {
+        top: 20px;
+    }
+
+    .footer .copy_right {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .banner .slide .owl-nav button.owl-prev,
+    .banner .slide .owl-nav button.owl-next {
+        font-size: 2rem;
+        color: var(--header_color);
+        padding: 0 15px 10px 15px !important;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2.7rem;
+    }
+
+    .banner .slide .slider .date_loc h4 {
+        font-size: .8rem;
+    }
+
+    .banner .slide .slider .timer .text h2 {
+        font-size: 2.5rem;
+    }
+
+    .enternment .counter {
+        flex-wrap: wrap;
+    }
+
+    .enternment .counter .count {
+        width: 140px;
+    }
+
+    .enternment .head_cont .img_text {
+        width: 40%;
+        margin-left: 15px;
+    }
+
+    .enternment .head_cont .img_text .card p {
+        font-size: .8rem;
+    }
+
+    .enternment .head_cont .img_text .card hr {
+        margin: 7px auto;
+    }
+
+    .enternment .head_cont .img_text .card {
+        padding: 30px 30px;
+    }
+
+    .enternment .head_cont .img_text .card:nth-child(1) {
+        right: 46%;
+        top: -15px;
+    }
+
+    .up_comming .events .card {
+        padding: 10px 10px 25px 10px;
+    }
+
+    .photo_gal .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .our_spon .spon_logo figure {
+        width: 20%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 665px) {
+    .header nav {
+        position: absolute;
+        width: 60%;
+        height: 100vh;
+        background: var(--dark_color);
+        transition: .5s;
+        top: 0;
+        right: -100%;
+    }
+
+    .header .show_nav {
+        right: 0;
+    }
+
+    .header nav ul {
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .header nav ul li a {
+        color: var(--white);
+    }
+
+    .header .bar {
+        display: block;
+        width: 40px;
+        position: relative;
+        height: 50px;
+    }
+
+    .header .clicked {
+        /* margin-top: 32px; */
+    }
+
+    .header .container {
+        padding: 7px 20px;
+    }
+
+    .header .clicked span:nth-child(1) {
+        transform: rotate(45deg);
+        position: absolute;
+        background: var(--white);
+        top: 10px;
+    }
+
+    .header .clicked span:nth-child(3) {
+        transform: rotate(130deg);
+        top: 10px;
+        background: var(--white);
+        position: absolute;
+    }
+
+    .header .bar span {
+        transition: .5s;
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: var(--dark_color);
+    }
+
+    .banner .slide .owl-nav {
+        right: -80px;
+    }
+
+    .enternment .head_cont {
+        flex-direction: column;
+    }
+
+    .enternment .head_cont .desc {
+        width: 100%;
+    }
+
+    .enternment .head_cont .img_text {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .enternment .head_cont .img_text .card {
+        position: initial;
+        padding: 40px 30px;
+        width: 300px;
+        margin: 0 10px;
+    }
+
+    .up_comming .events .card {
+        width: 40%;
+        margin: 10px 10px;
+    }
+
+    .up_comming .events {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photo_gal .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our_spon .spon_logo figure {
+        width: 25%;
+    }
+
+    .our_spon .glob_button {
+        margin-top: 25px;
+        padding: 7px 15px;
+    }
+
+    .contact_us .row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact_us .row:nth-child(2) {
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .contact_us .row .card {
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .contact_us .row .card:first-child {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .contact_us .row:nth-child(3) {
+        align-items: initial;
+    }
+
+    .footer .logo img {
+        width: 90px;
+    }
+
+    .footer .logo {
+        margin-top: -90px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    h4 {
+        font-size: .7rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 35px;
+    }
+
+    .b7nner .slide .slider .timer {
+        flex-direction: column;
+        right: 0;
+        bottom: 0px;
+    }
+
+    .banner .slide .owl-nav {
+        right: -80px;
+        top: -88px;
+    }
+
+    .banner .slide .slider .timer {
+        right: -15px;
+        flex-direction: column;
+    }
+
+    .banner .slide .slider .date_loc {
+        margin-top: 5px;
+        flex-direction: column;
+    }
+
+    .banner .slide .slider h4 {
+        margin-top: 10px;
+    }
+
+    .up_comming .events .card {
+        width: 95%;
+    }
+
+    .photo_gal .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .our_spon .spon_logo figure {
+        width: 30%;
+    }
+
+    .footer nav ul {
+        flex-wrap: wrap;
+    }
+
+    .footer nav ul li {
+        margin-top: 10px;
+        width: 90px;
+    }
+
+    .header .logo {
+        width: 90px;
+    }
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 35px;
+    }
+}
