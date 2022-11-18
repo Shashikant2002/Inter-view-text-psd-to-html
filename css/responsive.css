@@ -215,8 +215,12 @@
         height: 50px;
     }
 
-    .header .clicked span:nth-child(2) {
-        opacity: 0;
+    .header .clicked {
+        margin-top: 32px;
+    }
+
+    .header .container {
+        padding: 7px 20px;
     }
 
     .header .clicked span:nth-child(1) {
@@ -319,6 +323,15 @@
     .contact_us .row:nth-child(3) {
         align-items: initial;
     }
+
+    .footer .logo img {
+        width: 90px;
+    }
+
+    .footer .logo {
+        margin-top: -90px;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -339,7 +352,7 @@
 
     .banner .slide .owl-nav {
         right: -80px;
-        top: 0;
+        top: -88px;
     }
 
     .banner .slide .slider .timer {
@@ -375,5 +388,16 @@
     .footer nav ul li {
         margin-top: 10px;
         width: 90px;
+    }
+
+    .header .logo {
+        width: 90px;
+    }
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 35px;
     }
 }
