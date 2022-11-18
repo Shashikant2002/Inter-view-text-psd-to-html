@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Header is Start Here -->
     <header class="header">
         <div class="container flex just_con_spa_betw ali_item_center">
-            <div class="logo">
+            <div class="logo" data-aos="fade-up">
                 <img src="./img/logo.png" alt="Logo">
             </div>
             <nav id="nav_bar">
@@ -31,10 +31,10 @@
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Contact Us</a></li>
-                    <li><button class="glob_button"><a href="#">Buy Tickets</a></button></li>
+                    <li><button data-aos="fade-up" class="glob_button"><a href="#">Buy Tickets</a></button></li>
                 </ul>
             </nav>
-            <div onclick="open_close_bar()" class="bar" id="bars">
+            <div onclick="open_close_bar()" class="bar" id="bars" data-aos="fade-up">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -140,7 +140,7 @@
     <!-- enternment start here  -->
     <section class="enternment">
         <div class="container">
-            <div class="head_cont flex">
+            <div class="head_cont flex" data-aos="fade-up">
                 <div class="desc">
                     <h2>Karma Entertainment <br>
                         for <span class="pink">Best Music Events</span></h2>
@@ -167,24 +167,26 @@
                     </div>
                 </div>
             </div>
-            <div class="counter flex just_con_cent">
+            <div class="counter flex just_con_cent" data-aos="fade-up">
                 <div class="count">
-                    <h2>100<span>+</span></h2>
+                    <h2><span class="counter" data-number="100"></span><span>+</span></h2>
                     <p>Feature Events</p>
                 </div>
                 <div class="count">
-                    <h2>500<span>+</span></h2>
+                    <h2><span class="counter" data-number="500"></span><span>+</span></h2>
                     <p>Feature Events</p>
                 </div>
                 <div class="count">
-                    <h2>300<span>+</span></h2>
+                    <h2><span class="counter" data-number="300"></span><span>+</span></h2>
                     <p>Feature Events</p>
                 </div>
                 <div class="count">
-                    <h2>50<span>+</span></h2>
+                    <h2><span class="counter" data-number="300"></span><span>+</span></h2>
                     <p>Feature Events</p>
                 </div>
             </div>
+
+
         </div>
     </section>
 
@@ -192,7 +194,7 @@
     <section class="up_comming">
         <div class="container">
             <div class="head">
-                <h2 class="white">Photo Gallery</h2>
+                <h2 class="white" data-aos="fade-up">Photo Gallery</h2>
                 <p class="white">We are ipsum dolor sit amet, consectetur adipisicing elit, sed do the tempor incididunt
                     ut labore et
                     dolore magna aliqua. Ut enim ad nim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -227,7 +229,7 @@
                         <button class="glob_button"><a href="#">KNOW MORE</a></button>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <figure class="thumb">
                         <img src="./img/event1.png" alt="">
                     </figure>
@@ -296,7 +298,7 @@
                     ea uis aute irure dolor in reprehenderit in voluptate velit</p>
             </div>
             <div class="gallery">
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <figure>
                         <img src="./img/card1gal.png" alt="Gallery image">
                     </figure>
@@ -312,7 +314,7 @@
                         <span class="white zoom_icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <figure>
                         <img src="./img/card3gal.png" alt="Gallery image">
                     </figure>
@@ -336,7 +338,7 @@
                         <span class="white zoom_icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <figure>
                         <img src="./img/card6gal.png" alt="Gallery image">
                     </figure>
@@ -352,7 +354,7 @@
                         <span class="white zoom_icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <p><a class="white" href="#">VIEW ALL IMAGES</a></p>
                     <h3><span class="white"><i class="fa-solid fa-circle-arrow-right"></i></span></h3>
                 </div>
@@ -367,31 +369,31 @@
                 <h2>Our Sponsors</h2>
             </div>
             <div class="spon_logo flex just_con_cent">
-                <figure class="logo flex just_con_cent ali_item_center">
+                <figure class="logo flex just_con_cent ali_item_center" data-aos="fade-up">
                     <img src="./img/spon1.png" alt="Sponsors logo">
                 </figure>
                 <figure class="logo flex just_con_cent ali_item_center">
                     <img src="./img/spon2.png" alt="Sponsors logo">
                 </figure>
-                <figure class="logo flex just_con_cent ali_item_center">
+                <figure class="logo flex just_con_cent ali_item_center" data-aos="fade-up">
                     <img src="./img/spon3.png" alt="Sponsors logo">
                 </figure>
                 <figure class="logo flex just_con_cent ali_item_center">
                     <img src="./img/spon4.png" alt="Sponsors logo">
                 </figure>
-                <figure class="logo flex just_con_cent ali_item_center">
+                <figure class="logo flex just_con_cent ali_item_center" data-aos="fade-up">
                     <img src="./img/spon5.png" alt="Sponsors logo">
                 </figure>
                 <figure class="logo flex just_con_cent ali_item_center">
                     <img src="./img/spon6.png" alt="Sponsors logo">
                 </figure>
-                <figure class="logo flex just_con_cent ali_item_center">
+                <figure class="logo flex just_con_cent ali_item_center" data-aos="fade-up">
                     <img src="./img/spon1.png" alt="Sponsors logo">
                 </figure>
                 <figure class="logo flex just_con_cent ali_item_center">
                     <img src="./img/spon2.png" alt="Sponsors logo">
                 </figure>
-                <figure class="logo flex just_con_cent ali_item_center">
+                <figure class="logo flex just_con_cent ali_item_center" data-aos="fade-up">
                     <img src="./img/spon3.png" alt="Sponsors logo">
                 </figure>
                 <figure class="logo flex just_con_cent ali_item_center">
@@ -410,13 +412,13 @@
                     <div class="icon flex ali_item_center">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <div class="address">
+                    <div class="address" data-aos="fade-up">
                         <h4>Address</h4>
                         <p>250, Sydney, New South Wales, <br>
                             Australia</p>
                     </div>
                 </div>
-                <div class="card flex">
+                <div class="card flex" data-aos="fade-up">
                     <div class="icon flex ali_item_center">
                         <i class="fa-solid fa-phone"></i>
                     </div>
@@ -426,7 +428,7 @@
                             +61 7 7010 1235</p>
                     </div>
                 </div>
-                <div class="card flex">
+                <div class="card flex" data-aos="fade-up">
                     <div class="icon flex ali_item_center">
                         <i class="fa-solid fa-envelope"></i>
                     </div>
@@ -436,7 +438,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" data-aos="zoom-in">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13994.619216065787!2d77.25200955!3d28.72986055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1668701523741!5m2!1sen!2sin"
                     width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
@@ -490,29 +492,13 @@
 
     <!-- script add here  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1000: {
-                    items: 1
-                }
-            }
-        })
-    </script>
     <script src="./js/script.js"></script>
 </body>
 

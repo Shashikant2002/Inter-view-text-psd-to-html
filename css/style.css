@@ -141,9 +141,11 @@ h1 {
     position: fixed;
     z-index: 9999;
 }
-.header .container{
+
+.header .container {
     padding: 0 20px;
 }
+
 .header .logo img {
     width: 100%;
     margin-bottom: -69px;
@@ -186,7 +188,7 @@ h1 {
     padding: 200px 0 150px 0;
 }
 
-.banner .container{
+.banner .container {
     padding: 0 20px;
 }
 
@@ -272,7 +274,8 @@ h1 {
     background: #2222204f;
     border-radius: 10px;
 }
-.banner .slide .owl-dots{
+
+.banner .slide .owl-dots {
     display: none;
 }
 
@@ -337,6 +340,12 @@ h1 {
     text-align: center;
     position: relative;
     padding: 20px 0;
+    transition: .5s;
+}
+
+.counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
 }
 
 .enternment .counter .count::after {

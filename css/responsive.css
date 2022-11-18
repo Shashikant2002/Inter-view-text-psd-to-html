@@ -186,7 +186,7 @@
 @media (max-width: 665px) {
     .header nav {
         position: absolute;
-        width: 100%;
+        width: 60%;
         height: 100vh;
         background: var(--dark_color);
         transition: .5s;
@@ -216,7 +216,7 @@
     }
 
     .header .clicked {
-        margin-top: 32px;
+        /* margin-top: 32px; */
     }
 
     .header .container {
